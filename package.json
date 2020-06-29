@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Sarthakux.github.io/notes2",
+  "homepage": "http://Sarthakux.github.io/notes ",
   "name": "notes",
   "version": "0.1.0",
   "private": true,
@@ -13,12 +13,11 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy":"npm run deploy",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d src",
-
-    "predeploy": "npm run src",
     "start": "react-scripts start"
   },
   "eslintConfig": {
@@ -37,18 +36,18 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.0.0"
+    "gh-pages": "^3.1.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sarthakux/notes1.git"
+    "url": "git+https://github.com/Sarthakux/notes2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sarthakux/notes1/issues"
+    "url": "https://github.com/Sarthakux/notes2/issues"
   }
 }
